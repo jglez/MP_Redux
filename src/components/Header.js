@@ -6,6 +6,7 @@ import React from 'react';
 //   - state.car.price
 
 const Header = props => {
+
   return (
     <>
       <figure className="image is-128x128">

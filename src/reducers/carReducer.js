@@ -16,7 +16,8 @@ const initialState = {
   ]
 };
 
-// Reducers receive a state object and action object
+// - At its simplest, Reducers are functions that return a state object
+// - Reducers receive a state object and action object
 // Since we're using Reducers with Redux, we need to define
 // initialState / default state in parameters
 const carReducer = (state = initialState, action) => {
